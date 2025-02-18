@@ -8,7 +8,7 @@ An interactive login form inspired by Darin Senneff’s animated login, built wi
 
 Part 1: Designing & Animating the Avatar → (https://www.youtube.com/watch?v=Rmvpw6_7uc0)
 
-Part 2: Bringing It to Life in React → Coming soon
+Part 2: Bringing It to Life in React → (https://www.youtube.com/watch?v=q9r7leKNTBw&t=108s)
 
 # Features
 ✅ Dynamic Lottie animation – Avatar reacts to user input in real time
