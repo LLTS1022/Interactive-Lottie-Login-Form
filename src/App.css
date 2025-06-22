@@ -30,11 +30,13 @@ body{
   font-size: 16px;
   border-radius: 6px;
   border: 1px solid #ccc;
-  width: -webkit-fill-available;
+  width: 100%; /* <-- fix applied here */
   outline: none;
   transition: border-color 0.3s ease-in-out;
   background-color: #f9f9f9;
+  color: #000; /* make sure text is visible */
 }
+
 
 .login-input:focus {
   border: 2px solid #3EAFD9;
@@ -72,4 +74,21 @@ body{
 .detail-name{
   font-weight: bold;
   color:#066E93;
+}
+
+.show-password {
+  font-size: 14px;
+  color: #066E93;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.show-password {
+  font-size: 14px;
+  color: #066E93;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
 }
